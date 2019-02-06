@@ -1,0 +1,114 @@
+
+
+#header{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+.mt200{
+    margin-top: 300px;
+}
+
+#services img{
+    width: 51px;
+}
+
+#mt110{
+    margin-top: 110px;
+}
+
+.page-title .myc{
+    color:#ec5538;
+}
+
+#pb0{
+    padding-bottom: 0;
+}
+
+.pt0{
+    padding-top: 0;
+}
+
+#contact{
+    color: white;
+}
+
+.instruction{
+    font-style: italic;
+    color: black;
+    text-transform: capitalize;
+}
+
+#gender{
+    width: 100%;
+    height: 37px;
+    border: 1px solid #e1e1e1;  
+}
+
+.smalll{
+    font-size: 12px;
+    color: #ec5538;
+    text-transform: capitalize;
+}
+
+#bottom #foot{
+    padding: 38px 0;
+    padding-bottom: 3px;
+}
+
+#footnote #bottom{
+    padding-top: 0;
+}
+
+#services #content{
+    margin-top: 40px;
+}
+
+.parrent .tab-content{
+    margin-top: 30px;
+}
+
+.tleft{
+    text-align: left;
+}
+
+
+#testimonials{
+    padding-bottom: 50px;
+    background: #efefef;
+}
+
+.owl-stage{
+    margin: 0 auto;
+}
+
+.slider-title{
+    font-weight: 100;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+.contact-box{
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.contact-box .fa{
+        font-size: 30px;
+    color: #ec5538;
+    border-radius: 50%;
+    padding-top: 40px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.me{
+    list-style-type: none;
+}
