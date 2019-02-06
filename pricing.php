@@ -5,7 +5,7 @@ include_once 'includes/nav.php';
 
 
     <section class="mt110 pricing">
-        <div class="large-title text-center">        
+        <div id="mb0" class="large-title text-center">        
             <h2>Pricing Table</h2>
             <p>If you have any enquiry about the courses or thier prices, do not hesitate to <a href="conatct-us.php">contact us</a></p>
         </div> 
@@ -14,11 +14,11 @@ include_once 'includes/nav.php';
                 <div class="col-md-12 text-center">
                     <div class="single-pricing">
                         <span>Microsoft Excel</span>
-                        <h1>
-                            <span>#</span>
-                            19
+                        <h6>
+                            <span># 20,000</span>
+                         
                              <span></span>
-                        </h1>
+                        </h6>
                         <div class="clearfix">
                             <ul>
                                 <li><i class="fa fa-pie-chart"></i> 5 Gb Disk Space</li>
