@@ -6,15 +6,17 @@ include_once 'includes/nav.php';
 
 
     <div id="pb0" class="page-title">
-        <h1 class="myc" id="mt110">Register </h1>
+        <h1 class="myc" id="mt110"></h1>
     </div>
  
     <section id="contact-page">
         <div class="container">
             <div class="row contact-wrap"> 
                 <div class="col-sm-10 col-sm-offset-1">
-                    <p class="instruction">* Kindly follow the instructions on this page to register for the course of your choice</p>
-
+                    <p class="instruction">* Kindly follow the instructions on this page to register for the course of your choice</br>
+                    You can make Payment via ATM Transfer, Bank Deposit, USSD Transfer, Internet Mobile Banking or Online Payment Channels
+                    </p>
+ 
                     <ul>
                         <li>Deposit the equilvalent amount of the course you would like to register for into any of our accounts below
                             <ul>
@@ -33,7 +35,7 @@ include_once 'includes/nav.php';
 
                          <li>
                             <p>
-                               Note: For registration of five (5) people or more, kindly contact us to assit in placing your order as a coperate request. You can do that 
+                               Note: For registration of five (5) or more people, kindly contact us to assit in placing your order as a coperate request. You can do that 
                                 <a href="contact-us.php">here</a>
                             </p> 
                         </li>
@@ -43,7 +45,7 @@ include_once 'includes/nav.php';
             
              <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="includes/register.php">
                      <div class="col-sm-10 col-sm-offset-1">
                        <h2>Personal Details</h2>
                     </div>
@@ -110,7 +112,7 @@ include_once 'includes/nav.php';
 
                     <div class="col-sm-10 col-sm-offset-1">
                        <h2>Payment Details  
-                           <span class="smalll instruction">* we will use these details to confirm your payment</span>
+                           <span class="smalll instruction">* Excel Jet Consult will never disclose your details to any person or party, we need your details to confirm your payment and process your request.</span>
                         </h2>
                     </div>
                      
@@ -123,8 +125,11 @@ include_once 'includes/nav.php';
                         <div class="form-group">
                             <label>Mode of Payment *</label>
                             <select name="payment" id="gender" class="form-control" required="required">
+                                <option value="" selected disabled>Mode of Payment</option>
                                 <option value="Cash deposit">Cash deposit</option>
-                                <option value="Electronic Transfer">Electronic Transfer</option>
+                                <option value="ATM Transfer">ATM Transfer</option>
+                                <option value="USSD Transfer">USSD Transfer</option>
+                                <option value="Internet Mobile Banking">Internet Mobile Banking</option>
                                 <option value="others">Others</option>
                             </select>
                         </div>
@@ -144,7 +149,7 @@ include_once 'includes/nav.php';
 
                  
                      <div class="col-sm-12 center form-group">
-                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
+                            <button onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
                     </div>
                 </form> 
             </div>

@@ -20,7 +20,7 @@
         </div>
     </footer>
 
-      <div class="top-bar">
+      <div id="fred-bar" class="top-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -35,6 +35,7 @@
         </div>
 
     <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/owl.carousel.min.js"></script>

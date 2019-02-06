@@ -13,50 +13,62 @@ include_once 'includes/nav.php';
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="single-pricing">
-                        <span>Microsoft Excel</span>
+                        <span>Microsoft Excel </br>for Proffesionals</span>
                         <h6>
-                            <span># 20,000</span>
-                         
-                             <span></span>
+                            <img src="images/excel.png" alt="excel jet consult - abiola daivd">
                         </h6>
                         <div class="clearfix">
                             <ul>
-                                <li><i class="fa fa-pie-chart"></i> 5 Gb Disk Space</li>
-                                <li><i class="fa fa-paper-plane"></i> 1GB Dadicated Ram</li>
+                                <li><i class="fa fa-paper-plane"></i> # 35,000</li>
+                                <li><i class="fa fa-pie-chart"></i> Two (2) days</li>
                             </ul>
                         </div>
-                        <a href="register.php">REGISTER</a>
+                        <div>
+                            <a href="index.php#services">Learn more</a>
+                        </div> 
+                         <div class="mt10">
+                            <a class="btn btn-primary" href="register.php">Register</a>
+                        </div> 
+                        
                     </div>
                     <div class="single-pricing">
-                        <span>Advance Excel</span>
+                        <span>Microsoft Excel </br>Advanced Masterclass</span>
                         <h1>
-                            <span>#</span>
-                            49
-                            <span></span>
+                            <img src="images/excel2.jpg" alt="excel jet consult - abiola daivd">
                         </h1>
                         <div class="clearfix">
                             <ul>
-                                <li><i class="fa fa-pie-chart"></i> 5 Gb Disk Space</li>
-                                <li><i class="fa fa-paper-plane"></i> 1GB Dadicated Ram</li>
-                                <li><i class="fa fa-cloud"></i> 1GB Dadicated Ram</li>
+                                <li><i class="fa fa-paper-plane"></i> # 40,000</li>
+                                <li><i class="fa fa-pie-chart"></i> Two (2) days</li>
+                                <!-- <li><i class="fa fa-cloud"></i> 1GB Dadicated Ram</li> -->
                             </ul>
                         </div>
-                        <a href="register.php">REGISTER</a>
+                        <div>
+                            <a href="index.php#services">Learn more</a>
+                        </div> 
+                         <div class="mt10">
+                            <a class="btn btn-primary" href="register.php">Register</a>
+                        </div> 
+                        
                     </div>
                     <div class="single-pricing">
-                        <span>Power Bi</span>
+                        <span>Power BI </br>Masterclass </span>
                         <h1>
-                            <span>#</span>
-                            99
-                            <span></span>
+                            <img src="images/powerbi.jpg" alt="excel jet consult - abiola daivd">
                         </h1>
                         <div class="clearfix">
                             <ul>
-                                <li><i class="fa fa-pie-chart"></i> 5 Gb Disk Space</li>
-                                <li><i class="fa fa-paper-plane"></i> 1GB Dadicated Ram</li>
+                                <li><i class="fa fa-paper-plane"></i> # 30,000</li>
+                                <li><i class="fa fa-pie-chart"></i> Two (2) days</li>
                             </ul>
                         </div>
-                        <a href="register.php">REGISTER</a>
+                        <div>
+                            <a href="index.php#services">Learn more</a>
+                        </div> 
+                         <div class="mt10">
+                            <a class="btn btn-primary" href="register.php">Register</a>
+                        </div> 
+                        
                     </div>
                 </div>
             </div>

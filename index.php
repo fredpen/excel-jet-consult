@@ -65,7 +65,11 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Overview</h2>
-                                                     <p>Excel Jet Training is specially crafted to cater for the needs of the following professionals: Sales, HR, Marketing, Production, Accounting, Finance, Project Management and other professionals that uses Microsoft Excel and Power BI The Microsoft Excel for Professionals, Advanced Master for Professionals and Power BI run for two days each during the working week. In addition, the course is designed to cater for professionals who are available for weekend training. The courses are prerequisite to each other.</p>
+                                                    <p>Excel Jet Training is specially crafted to cater for the needs of the following professionals: Sales, HR, Marketing, Production, Accounting, Finance, Project Management and other professionals that uses Microsoft Excel and Power BI The Microsoft Excel for Professionals, Advanced Master for Professionals and Power BI run for two days each during the working week. In addition, the course is designed to cater for professionals who are available for weekend training. The courses are prerequisite to each other.
+                                                         <div>
+                                                            <a href="pricing.php">Learn more</a>
+                                                        </div>   
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -77,7 +81,11 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Excel for Professionals</h2>
-                                                    <p>Getting Started. Select and Navigation. View Options. Fill Handle. Simple Formulas. Formulas in Context. Basic Functions. Cell References. Formatting. Sorting and Filtering. Conditional Formatting. Basic Charts. Sharing Charts. 3D Formulas. Consolidation by Position and Reference. Text Functions. Named Range. Statistical Functions. Advance Charting. Tables. Pivot Table and many more </p>
+                                                    <p>Getting Started. Select and Navigation. View Options. Fill Handle. Simple Formulas. Formulas in Context. Basic Functions. Cell References. Formatting. Sorting and Filtering. Conditional Formatting. Basic Charts. Sharing Charts. 3D Formulas. Consolidation by Position and Reference. Text Functions. Named Range. Statistical Functions. Advance Charting. Tables. Pivot Table and many more
+                                                        <div>
+                                                            <a href="pricing.php">Learn more</a>
+                                                        </div>     
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,7 +97,11 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Excel Advanced Masterclass for Professionals</h2>
-                                                    <p>Data Validation. Formulas in Data Validation. Advanced Conditional Formatting. Logical Functions. Lookup Functions. Formula Auditing. What-if Analyses. Solver. Macro. VBA. Advanced Filtering. Financial Functions. Date Functions. Text to Column. Modelling. Array formulas and more</p>
+                                                    <p>Data Validation. Formulas in Data Validation. Advanced Conditional Formatting. Logical Functions. Lookup Functions. Formula Auditing. What-if Analyses. Solver. Macro. VBA. Advanced Filtering. Financial Functions. Date Functions. Text to Column. Modelling. Array formulas and more
+                                                         <div>
+                                                            <a href="pricing.php">Learn more</a>
+                                                        </div>   
+                                                    </p>
                                                 </div>
                                             </div>    
                                         </div>

@@ -37,7 +37,6 @@
 .instruction{
     font-style: italic;
     color: black;
-    text-transform: capitalize;
 }
 
 #gender{
@@ -49,7 +48,6 @@
 .smalll{
     font-size: 12px;
     color: #ec5538;
-    text-transform: capitalize;
 }
 
 #bottom #foot{
@@ -115,4 +113,14 @@
 
 #mb0{
     margin-bottom: 0;
+}
+
+#fred-bar{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h6 > img{
+    width: 40px;
 }

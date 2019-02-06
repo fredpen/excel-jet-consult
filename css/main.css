@@ -1516,7 +1516,6 @@ section.pricing{
     font-size: 16px;
     font-weight: 300;
     font-size: 12px;
-    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -2321,6 +2320,7 @@ shortcodes page css
     color: #fff;
     background: #2e2e2e;
     font-weight: 300;
+    margin-top: 50px;
 }
 
 #footer a {
