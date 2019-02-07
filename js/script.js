@@ -1,3 +1,36 @@
+function newsletter() {
+    $(".alert-box").fadeOut("fast");
+
+    var newslettername = $("input[name='newslettername']").val(),
+        newsletteremail = $("input[name='newsletteremail']").val();
+
+    if (newslettername.length < 2) {
+        fade_in();
+        alert_mess("Kindly enter your full name");
+        return
+    }
+
+
+    if (validateEmail(newsletteremail) == false) {
+        fade_in();
+        alert_mess("Kindly enter a valid email");
+        return;
+    }
+
+
+     $.post("includes/ajax/newsletter.php", {newslettername: newslettername, newsletteremail:newsletteremail},
+
+        function (data) {
+            console.log(data);
+            if (data) {
+                $(".result_container").fadeIn("slow");
+            }else{
+                console.log("no dtatata");
+            }
+    })
+}
+
+
 
 // get the values of selects
 var gender,
@@ -181,3 +214,7 @@ $(document).ready(function () {
     })
 
 });
+
+
+
+

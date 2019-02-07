@@ -18,15 +18,15 @@
                                     <!-- <div class="col-sm-12"> -->
                                         <div class="col-sm-5 form-group">
                                             <label>Name *</label>
-                                            <input type="text" name="name" class="form-control" required="required">
+                                            <input type="text" name="newslettername" class="form-control" required="required">
                                         </div>
                                         <div class="col-sm-7 form-group">
                                             <label>Email * <span class="smalll instruction">we promise not to spam your inbox</span></label>
-                                            <input type="email" name="email" class="form-control" required="required">
+                                            <input type="email" name="newsletteremail" class="form-control" required="required">
                                         </div>
 
                                         <div class="text-center form-group col-sm-12">
-                                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Subscribe to our newsletter</button>
+                                            <button onclick="newsletter()" type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Subscribe to our newsletter</button>
                                         </div>
                                     <!-- </div> -->
                                 </form>
