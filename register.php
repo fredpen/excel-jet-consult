@@ -1,5 +1,5 @@
 
-<?php 
+<?php
 include_once 'includes/header.php';
 include_once 'includes/nav.php';
 
@@ -9,21 +9,21 @@ include_once 'includes/nav.php';
     <div id="pb0" class="page-title">
         <h1 class="myc" id="mt110"></h1>
     </div>
- 
+
     <section id="contact-page">
         <div class="container">
-            <div class="row contact-wrap"> 
+            <div class="row contact-wrap">
                 <div class="col-sm-10 col-sm-offset-1">
                     <p class="instruction">* Kindly follow the instructions on this page to register for the course of your choice</br>
                     You can make Payment via ATM Transfer, Bank Deposit, USSD Transfer, Internet Mobile Banking or Online Payment Channels
                     </p>
- 
+
                     <ul>
                         <li>Deposit the equilvalent amount of the course you would like to register for into any of our accounts below
                             <ul>
                                 <li>
                                     <p>   Gtbank - Abiola David</p>
-                                 
+
                                 </li>
                             </ul>
                         </li>
@@ -31,26 +31,26 @@ include_once 'includes/nav.php';
                         <li>
                             <p>
                                 After making the payment, fill the form below and we will contact you with the details of your training in less than 30 minutes
-                            </p> 
+                            </p>
                         </li>
 
                          <li>
                             <p>
-                               Note: For registration of five (5) or more people, kindly contact us to assit in placing your order as a coperate request. You can do that 
+                               Note: For registration of five (5) or more people, kindly contact us to assit in placing your order as a coperate request. You can do that
                                 <a href="contact-us.php">here</a>
-                            </p> 
+                            </p>
                         </li>
                     </ul>
                 </div>
-            </div>   
-            
-             <div class="row contact-wrap"> 
+            </div>
+
+             <div class="row contact-wrap">
                 <div class="status alert alert-success" style="display: none"></div>
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="includes/ajax/register.php">
                      <div class="col-sm-10 col-sm-offset-1">
                        <h2>Personal Details</h2>
                     </div>
-                     
+
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
                             <label>Full Name * <span class="smalll instruction">as you want it on the certificate</span></label>
@@ -108,20 +108,26 @@ include_once 'includes/nav.php';
                             <label>Country *</label>
                             <input type="text" name="country" class="form-control" required="required">
                         </div>
-                                              
+
                     </div>
 
                     <div class="col-sm-10 col-sm-offset-1">
-                       <h2>Payment Details  
+                       <h2>Payment Details
                            <span class="smalll instruction">* Excel Jet Consult will never disclose your details to any person or party, we need your details to confirm your payment and process your request.</span>
                         </h2>
                     </div>
-                     
+
                     <div class="col-sm-5 col-sm-offset-1">
                        <div class="form-group">
                             <label>Name of Depositor *</label>
                             <input type="text"  placeholder="Jane Dow" name="depositor" id="depositor" required="required" class="form-control">
                         </div>
+
+                        <div class="form-group">
+                            <label>Amount Paid *</label>
+                            <input type="number"  placeholder="Amount in naira" name="amount" id="amount" required="required" class="form-control">
+                        </div>
+
 
                         <div class="form-group">
                             <label>Mode of Payment *</label>
@@ -140,23 +146,23 @@ include_once 'includes/nav.php';
                          <div class="form-group">
                             <label>Account number *</label>
                             <input type="number" placeholder="9034587381" name="account_number" id="depositor" required="required" class="form-control">
-                        </div>    
+                        </div>
 
                         <div class="form-group">
                             <label>Bank *</label>
                             <input type="text" placeholder="Gtbank" name="bank" id="depositor" required="required" class="form-control">
-                        </div> 
+                        </div>
                     </div>
 
-                 
+
                      <div class="col-sm-12 center form-group">
                             <button onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
                     </div>
-                </form> 
+                </form>
             </div>
-            
 
-        </div>  
+
+        </div>
     </section>
 
     <div class="result_container center">
@@ -180,13 +186,13 @@ include_once 'includes/nav.php';
     </div>
 
      <div class="alert-box">
-            <p class="alert_text">Check your details again and re-submit<span class="closed">X</span></p> 
+            <p class="alert_text">Check your details again and re-submit<span class="closed">X</span></p>
         </div>
     </div>
 
 
-  
 
-<?php 
+
+<?php
 include_once 'includes/footer.php';
 ?>

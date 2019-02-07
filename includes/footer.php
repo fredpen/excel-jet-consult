@@ -1,6 +1,4 @@
 
-   
-
 
     <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -20,7 +18,7 @@
         </div>
     </footer>
 
-      <div id="fred-bar" class="top-bar">
+     <div id="fred-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -33,6 +31,7 @@
                 </div>
             </div>
         </div>
+
 
     <script src="js/jquery.js"></script>
     <script src="js/script.js"></script>

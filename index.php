@@ -6,16 +6,13 @@
 
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-            </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-                <!-- <div class="item active" style="background-image: url(images/overview.jpeg)"> -->
+                <!-- <div class="item active" style="background-image: url(images/slider/bg1.jpg)"> -->
+                <div class="item active" style="background-image: url(images/tes3.jpg)">
                     <div class="container mt200">
                         <div class="row">
-                            <div class="col-md-7">
+                            <div class="col-md-12 text-right">
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Excel Jet Consult</h1>
                                     <div class="animation animated-item-2">

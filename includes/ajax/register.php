@@ -38,10 +38,72 @@ $course = strip_tags($_POST['course']);
 $marry = strip_tags($_POST['marry']);
 $payment = strip_tags($_POST['payment']);
 $bank = strip_tags($_POST['bank']);
+$amount = strip_tags($_POST['amount']);
 $timestamp = date("Y-m-d-l-h:m");
 
+// build the mail string
+$message =
+"<!DOCTYPE html>
+<html>
+    <body>
+        <div>
+            <p>A client just register for a course using your site. Find the details below</p>
+        <ul>
+          <p style='margin: 20px 0; color: black; font-size: 20px;text-transform: capitalize;'>Personal details</p>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>Registered at: " .$timestamp ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>full Name: " .$name ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>Email: " .$email."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>birthdate: " .$birthdate ."</li>
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>phone number: " .$phone ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>country: " .$country ."</li>
+
+      <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>gender: " .$gender ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>course registered for: " .$course ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>Mariage status: " .$marry ."</li>
+
+
+
+      <p style='margin: 20px 0; color: black; font-size: 20px;text-transform: capitalize;'>payment details</p>
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>depositor's account name: " .$depositor ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>Depositor's account number: " .$account_number ."</li>
+
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>mode of payment: " .$payment ."</li>
+
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;
+        text-transform: capitalize;'>bank name : " .$bank ."</li>
+            </ul>
+    </div>
+            <p> Simply reply to this email with the details of the client training after confirming the payment </p>
+        <div>
+            &copy; Excel Jet Consult. All Rights Reserved.
+        </div>
+    </body>
+</html>
+";
+
 $stmt = $con->prepare("INSERT INTO clients VALUES('', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)");
-$stmt->bind_param("sssssssssssss", $timestamp, $name, $email, $birthdate, $phone, $country, $depositor, $account_number, $gender, $course, $marry, $payment, $bank);
+$stmt->bind_param("ssssssssssssss", $timestamp, $name, $email, $birthdate, $phone, $country, $depositor, $account_number, $gender, $course, $marry, $payment, $bank, $amount);
 $stmt->execute();
 
 // echo ($stmt->affected_rows === 0 ? false : true);
@@ -73,13 +135,13 @@ if ($stmt->affected_rows !== 0) {
         //Recipients
         $mail->setFrom('abiola.david@exceljetconsult.com.ng', 'Excel Jet Consult');
         $mail->addAddress('fredricksola@yahoo.com', 'fred');     // Add a recipient
-        $mail->addReplyTo('abiola.david@exceljetconsult.com.ng', 'reply');
+        $mail->addReplyTo($email, 'reply');
 
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = 'from the real mail';
-        $mail->Body    = (file_get_contents('course.php'), __DIR__);
-        $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+        $mail->Body    = $message;
+        $mail->AltBody = strip_tags($message);
 
         $mail->send();
         echo true;

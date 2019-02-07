@@ -1,6 +1,10 @@
 
 
 #header{
+      -webkit-box-shadow: 4px 4px 9px 2px rgba(76, 175, 80, 0.62);
+    -moz-box-shadow: 4px 4px 9px 2px rgba(76, 175, 80, 0.62);
+    box-shadow: 4px 4px 9px 2px rgba(76, 175, 80, 0.62);
+    box-shadow: 4px 4px 9px 2px rgba(76, 175, 80, 0.62);
     position: fixed;
     z-index: 1000;
     width: 100%;
@@ -19,7 +23,7 @@
 }
 
 .page-title .myc{
-    color:#ec5538;
+    color:#4caf50;
 }
 
 #pb0{
@@ -42,7 +46,7 @@
 #gender{
     width: 100%;
     height: 37px;
-    border: 1px solid #e1e1e1;  
+    border: 1px solid #e1e1e1;
 }
 
 .smalll{
@@ -100,7 +104,7 @@
 
 .contact-box .fa{
         font-size: 30px;
-    color: #ec5538;
+    color: #4caf50;
     border-radius: 50%;
     padding-top: 40px;
     text-align: center;
@@ -117,8 +121,13 @@
 
 #fred-bar{
     margin: 0;
-    padding: 0;
-    border: 0;
+    border-top: 1px solid white;
+    padding: 7px 0 0 0;
+    background: black;
+}
+
+#fred-bar a:hover{
+  color: #fff;
 }
 
 h6 > img{
@@ -172,4 +181,10 @@ h6 > img{
 .closed{
     padding-left: 10px;
     cursor: pointer;
+}
+
+
+.navbar-inverse .navbar-brand:hover,
+ .navbar-inverse .navbar-brand:focus {
+    color:#4caf50;
 }

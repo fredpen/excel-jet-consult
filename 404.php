@@ -30,8 +30,7 @@
 <!--/head-->
 <body>
     <?php
-        echo "am here";
-        echo strip_tags((file_get_contents("index.php")));
+        echo (file_get_contents("includes/ajax/course.php"));
      ?>
 
     <section class="window-height" id="error" style="background-image: url(images/404.png)">

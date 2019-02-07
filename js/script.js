@@ -51,6 +51,7 @@ function register() {
         country = $("input[name='country']").val(),
         depositor = $("input[name='depositor']").val(),
         account_number = $("input[name='account_number']").val();
+        ammount = $("input[name='amount']").val();
         bank = $("input[name='bank']").val();
 
 
@@ -127,6 +128,13 @@ function register() {
     }
 
 
+    // if (amount.length < 2) {
+    //     fade_in();
+    //     alert_mess("Enter the amount paid in naira");
+    //     return;
+    // }
+
+
     // alerting user that the registration is on going
     fade_in();
     alert_mess("Processing your request ...");
@@ -146,7 +154,8 @@ function register() {
             course:course,
             marry:marry,
             payment:payment,
-            bank:bank
+            bank:bank,
+            amount:amount
         },
 
         function (data) {
@@ -154,9 +163,10 @@ function register() {
 
         // if registration is successful
         if (data) {
-            // console.log(data);
+            console.log(data);
 
-            $(".result_container").fadeIn("slow");
+            // $(".result_container").fadeIn("slow");
+            $(".fail_container").fadeIn("slow");
 
         } else if (!data) {
 
