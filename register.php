@@ -15,11 +15,12 @@ include_once 'includes/nav.php';
             <div class="row contact-wrap">
                 <div class="col-sm-10 col-sm-offset-1">
                     <p class="instruction">* Kindly follow the instructions on this page to register for the course of your choice</br>
-                    You can make Payment via ATM Transfer, Bank Deposit, USSD Transfer, Internet Mobile Banking or Online Payment Channels
+
                     </p>
 
                     <ul>
-                        <li>Deposit the equilvalent amount of the course you would like to register for into any of our accounts below
+                        <li>Deposit the <a href="pricing.php">equilvalent amount</a>  of the course you would like to register for into any of our accounts below.
+                             You can make Payment via ATM Transfer, Bank Deposit, USSD Transfer, Internet Mobile Banking or Online Payment Channels
                             <ul>
                                 <li>
                                     <p>   Gtbank - Abiola David</p>
@@ -123,11 +124,11 @@ include_once 'includes/nav.php';
                             <input type="text"  placeholder="Jane Dow" name="depositor" id="depositor" required="required" class="form-control">
                         </div>
 
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                             <label>Amount Paid *</label>
                             <input type="number"  placeholder="Amount in naira" name="amount" id="amount" required="required" class="form-control">
                         </div>
-
+ -->
 
                         <div class="form-group">
                             <label>Mode of Payment *</label>

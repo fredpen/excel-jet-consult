@@ -179,6 +179,6 @@
 
 
 <?php
-    // include_once 'includes/newsletter.php';
+    include_once 'includes/newsletter.php';
     include_once 'includes/footer.php';
 ?>

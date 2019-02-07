@@ -38,7 +38,6 @@ $course = strip_tags($_POST['course']);
 $marry = strip_tags($_POST['marry']);
 $payment = strip_tags($_POST['payment']);
 $bank = strip_tags($_POST['bank']);
-$amount = strip_tags($_POST['amount']);
 $timestamp = date("Y-m-d-l-h:m");
 
 // build the mail string
@@ -47,7 +46,7 @@ $message =
 <html>
     <body>
         <div>
-            <p>A client just register for a course using your site. Find the details below</p>
+            <p>A client just register for ". $course ." on the site. Find the details below</p>
         <ul>
           <p style='margin: 20px 0; color: black; font-size: 20px;text-transform: capitalize;'>Personal details</p>
 
@@ -57,8 +56,7 @@ $message =
                 <li style='list-style-type: circle;margin: 10px 0; color: blue;
         text-transform: capitalize;'>full Name: " .$name ."</li>
 
-                <li style='list-style-type: circle;margin: 10px 0; color: blue;
-        text-transform: capitalize;'>Email: " .$email."</li>
+                <li style='list-style-type: circle;margin: 10px 0; color: blue;'>Email: " .$email."</li>
 
                 <li style='list-style-type: circle;margin: 10px 0; color: blue;
         text-transform: capitalize;'>birthdate: " .$birthdate ."</li>
@@ -102,16 +100,12 @@ $message =
 </html>
 ";
 
-$stmt = $con->prepare("INSERT INTO clients VALUES('', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,?)");
-$stmt->bind_param("ssssssssssssss", $timestamp, $name, $email, $birthdate, $phone, $country, $depositor, $account_number, $gender, $course, $marry, $payment, $bank, $amount);
+$stmt = $con->prepare("INSERT INTO clients VALUES('', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+$stmt->bind_param("sssssssssssss", $timestamp, $name, $email, $birthdate, $phone, $country, $depositor, $account_number, $gender, $course, $marry, $payment, $bank);
 $stmt->execute();
-
-// echo ($stmt->affected_rows === 0 ? false : true);
 
 
 if ($stmt->affected_rows !== 0) {
-
-
 
     $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
     try {
@@ -139,7 +133,7 @@ if ($stmt->affected_rows !== 0) {
 
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = 'from the real mail';
+        $mail->Subject = 'Course registration !!!';
         $mail->Body    = $message;
         $mail->AltBody = strip_tags($message);
 

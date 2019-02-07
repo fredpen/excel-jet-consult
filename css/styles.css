@@ -52,6 +52,7 @@
 .smalll{
     font-size: 12px;
     color: #ec5538;
+    color: #4caf50;
 }
 
 #bottom #foot{
@@ -78,7 +79,7 @@
 
 #testimonials{
     padding-bottom: 50px;
-    background: #efefef;
+    background: #e6e6e6;
 }
 
 .owl-stage{

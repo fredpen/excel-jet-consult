@@ -2277,8 +2277,8 @@ shortcodes page css
     display: inline-block;
 }
 #bottom {
-    background: #f5f5f5;
-    border-bottom: 5px solid #EC5538;
+    background: #fff;
+    border-top: 5px solid transparent;
     font-size: 14px;
 }
 
