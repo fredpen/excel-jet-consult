@@ -12,6 +12,7 @@
             <div class="carousel-inner">
 
                 <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <!-- <div class="item active" style="background-image: url(images/overview.jpeg)"> -->
                     <div class="container mt200">
                         <div class="row">
                             <div class="col-md-7">
@@ -177,6 +178,8 @@
             </div>
         </div>
     </section>
+
+
 
 <?php
     // include_once 'includes/newsletter.php';

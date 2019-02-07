@@ -150,14 +150,16 @@ function register() {
         },
 
         function (data) {
+            console.log(data);
 
         // if registration is successful
         if (data) {
+            // console.log(data);
 
             $(".result_container").fadeIn("slow");
 
-        // if not successful
         } else if (!data) {
+
             $(".fail_container").fadeIn("slow");
         }
 

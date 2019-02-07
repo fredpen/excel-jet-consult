@@ -29,7 +29,10 @@
 </head>
 <!--/head-->
 <body>
-
+    <?php
+        echo "am here";
+        echo strip_tags((file_get_contents("index.php")));
+     ?>
 
     <section class="window-height" id="error" style="background-image: url(images/404.png)">
        <div class="container">
@@ -48,5 +51,7 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
+
 
 </html>
