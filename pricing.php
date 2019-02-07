@@ -1,14 +1,14 @@
-<?php 
+<?php
 include_once 'includes/header.php';
 include_once 'includes/nav.php';
 ?>
 
 
     <section class="mt110 pricing">
-        <div id="mb0" class="large-title text-center">        
+        <div id="mb0" class="large-title text-center">
             <h2>Pricing Table</h2>
             <p>If you have any enquiry about the courses or thier prices, do not hesitate to <a href="conatct-us.php">contact us</a></p>
-        </div> 
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -24,12 +24,12 @@ include_once 'includes/nav.php';
                             </ul>
                         </div>
                         <div>
-                            <a href="index.php#services">Learn more</a>
-                        </div> 
+                            <a href="index.php#services">Course details</a>
+                        </div>
                          <div class="mt10">
                             <a class="btn btn-primary" href="register.php">Register</a>
-                        </div> 
-                        
+                        </div>
+
                     </div>
                     <div class="single-pricing">
                         <span>Microsoft Excel </br>Advanced Masterclass</span>
@@ -44,12 +44,12 @@ include_once 'includes/nav.php';
                             </ul>
                         </div>
                         <div>
-                            <a href="index.php#services">Learn more</a>
-                        </div> 
+                            <a href="index.php#services">Course details</a>
+                        </div>
                          <div class="mt10">
                             <a class="btn btn-primary" href="register.php">Register</a>
-                        </div> 
-                        
+                        </div>
+
                     </div>
                     <div class="single-pricing">
                         <span>Power BI </br>Masterclass </span>
@@ -63,21 +63,21 @@ include_once 'includes/nav.php';
                             </ul>
                         </div>
                         <div>
-                            <a href="index.php#services">Learn more</a>
-                        </div> 
+                            <a href="index.php#services">Course details</a>
+                        </div>
                          <div class="mt10">
                             <a class="btn btn-primary" href="register.php">Register</a>
-                        </div> 
-                        
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-   
 
-    <?php 
+
+    <?php
     // include_once 'includes/newsletter.php';
     include_once 'includes/footer.php';
     ?>

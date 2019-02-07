@@ -1,7 +1,7 @@
 
-<?php 
+<?php
     include_once 'includes/header.php';
-    include_once 'includes/nav.php'; 
+    include_once 'includes/nav.php';
 ?>
 
     <section id="main-slider" class="no-margin">
@@ -25,14 +25,13 @@
                                     <a class="btn-slide white animation animated-item-3" href="register.php">Get Started</a>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+
 
 
     <section id="services" class="service-item">
@@ -68,7 +67,7 @@
                                                     <p>Excel Jet Training is specially crafted to cater for the needs of the following professionals: Sales, HR, Marketing, Production, Accounting, Finance, Project Management and other professionals that uses Microsoft Excel and Power BI The Microsoft Excel for Professionals, Advanced Master for Professionals and Power BI run for two days each during the working week. In addition, the course is designed to cater for professionals who are available for weekend training. The courses are prerequisite to each other.
                                                          <div>
                                                             <a href="pricing.php">Learn more</a>
-                                                        </div>   
+                                                        </div>
                                                     </p>
                                                 </div>
                                             </div>
@@ -84,7 +83,7 @@
                                                     <p>Getting Started. Select and Navigation. View Options. Fill Handle. Simple Formulas. Formulas in Context. Basic Functions. Cell References. Formatting. Sorting and Filtering. Conditional Formatting. Basic Charts. Sharing Charts. 3D Formulas. Consolidation by Position and Reference. Text Functions. Named Range. Statistical Functions. Advance Charting. Tables. Pivot Table and many more
                                                         <div>
                                                             <a href="pricing.php">Learn more</a>
-                                                        </div>     
+                                                        </div>
                                                     </p>
                                                 </div>
                                             </div>
@@ -100,10 +99,10 @@
                                                     <p>Data Validation. Formulas in Data Validation. Advanced Conditional Formatting. Logical Functions. Lookup Functions. Formula Auditing. What-if Analyses. Solver. Macro. VBA. Advanced Filtering. Financial Functions. Date Functions. Text to Column. Modelling. Array formulas and more
                                                          <div>
                                                             <a href="pricing.php">Learn more</a>
-                                                        </div>   
+                                                        </div>
                                                     </p>
                                                 </div>
-                                            </div>    
+                                            </div>
                                         </div>
 
                                         <div class="tab-pane fade" id="tab3">
@@ -113,7 +112,11 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Power BI Desktop </h2>
-                                                    <p>Power Query and Power Pivot (Data Modelling)Power BI DAX formulas, time in`telligence functions Trends and Insights and many more. </p>
+                                                    <p>Power Query and Power Pivot (Data Modelling)Power BI DAX formulas, time in`telligence functions Trends and Insights and many more.
+                                                          <div>
+                                                            <a href="pricing.php">Learn more</a>
+                                                        </div>
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -143,7 +146,7 @@
                 <p class="lead">Our clients love us, listen to what they say about our services</p>
             </div>
 
-            
+
 
             <div class="testimonial-slider owl-carousel">
 
@@ -166,7 +169,7 @@
                     <div class="content tleft">
                         <img src="images/review5.png" alt="excel jet consult">
                         <p>I needed help improving my excel skills and came across one of Excel Jet's post on LinkedIn and decided to give them a trial. </p>
-                        <p>It was totally worth the shot because apart from breaking down the formulas and explaining the rationale behind each formula, they also provided text book containing steps and also to serve as refresher. </p> 
+                        <p>It was totally worth the shot because apart from breaking down the formulas and explaining the rationale behind each formula, they also provided text book containing steps and also to serve as refresher. </p>
                         <p>... Would recommend them anyday</p>
                         <h4>- Adesola Adebo</h4>
                     </div>
@@ -174,8 +177,8 @@
             </div>
         </div>
     </section>
-   
-<?php 
+
+<?php
     // include_once 'includes/newsletter.php';
     include_once 'includes/footer.php';
 ?>

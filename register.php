@@ -2,6 +2,7 @@
 <?php 
 include_once 'includes/header.php';
 include_once 'includes/nav.php';
+
 ?>
 
 
@@ -45,7 +46,7 @@ include_once 'includes/nav.php';
             
              <div class="row contact-wrap"> 
                 <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="includes/register.php">
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="includes/ajax/register.php">
                      <div class="col-sm-10 col-sm-offset-1">
                        <h2>Personal Details</h2>
                     </div>
@@ -72,14 +73,14 @@ include_once 'includes/nav.php';
 
                          <div class="form-group">
                             <label>Date of Birth *</label>
-                            <input id="gender" type="date" name="dob" class="form-control" required="required">
+                            <input id="birthdate" type="date" name="birthdate" class="form-control" required="required">
                         </div>
 
                     </div>
                     <div class="col-sm-5">
                          <div class="form-group">
                             <label>Course *</label>
-                            <select name="course" id="gender" class="form-control" required="required">
+                            <select name="course" id="course" class="form-control" required="required">
                                 <option value="" selected disabled>Select a Course</option>
                                 <option value="Certificate Course in Microsoft Excel">Certificate Course in Microsoft Excel</option>
                                 <option value="Certificate Course in Advance Microsoft Excel(Master Class)">Certificate Course in Advance Microsoft Excel(Master Class)</option>
@@ -90,12 +91,12 @@ include_once 'includes/nav.php';
 
                         <div class="form-group">
                             <label>Phone *</label>
-                            <input type="number" placeholder="08038xxxxxx" class="form-control" required="required">
+                            <input type="number" placeholder="08038xxxxxx" class="form-control" required="required" min="0000000000" max="9999999999"  name="phone">
                         </div>
 
                         <div class="form-group">
                             <label>Marital Status *</label>
-                            <select name="marry" id="gender" class="form-control" required="required">
+                            <select name="marry" id="marry" class="form-control" required="required">
                                 <option value="" selected disabled>Marital status</option>
                                 <option value="single">Single</option>
                                 <option value="married">Married</option>
@@ -124,7 +125,7 @@ include_once 'includes/nav.php';
 
                         <div class="form-group">
                             <label>Mode of Payment *</label>
-                            <select name="payment" id="gender" class="form-control" required="required">
+                            <select name="payment" id="payment" class="form-control" required="required">
                                 <option value="" selected disabled>Mode of Payment</option>
                                 <option value="Cash deposit">Cash deposit</option>
                                 <option value="ATM Transfer">ATM Transfer</option>
@@ -143,7 +144,7 @@ include_once 'includes/nav.php';
 
                         <div class="form-group">
                             <label>Bank *</label>
-                            <input type="text" placeholder="Gtbank" name="account_number" id="depositor" required="required" class="form-control">
+                            <input type="text" placeholder="Gtbank" name="bank" id="depositor" required="required" class="form-control">
                         </div> 
                     </div>
 
@@ -157,6 +158,32 @@ include_once 'includes/nav.php';
 
         </div>  
     </section>
+
+    <div class="result_container center">
+        <div class="result_row single-pricing">
+            <p>Registration is completed,
+            We will contact you with the details of your training shortly
+            kindly return to the</br>
+                <a id="no_border" href="index.php">
+                    <button class="btn btn-primary">Home page</button>
+                </a>
+             </p>
+        </div>
+    </div>
+
+    <div class="fail_container center">
+        <div class="result_row single-pricing">
+            <p>One or more of the detail(s) you entered is incorrect, kindly check and submit again </br>
+                <button id="close" class="btn btn-primary">Try again</button>
+             </p>
+        </div>
+    </div>
+
+     <div class="alert-box">
+            <p class="alert_text">Check your details again and re-submit<span class="closed">X</span></p> 
+        </div>
+    </div>
+
 
   
 

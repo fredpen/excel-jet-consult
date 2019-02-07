@@ -124,3 +124,52 @@
 h6 > img{
     width: 40px;
 }
+
+
+.result_container,
+.fail_container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    display: none;
+}
+
+#no_border{
+    border: 0;
+}
+
+.result_row{
+    max-width: 350px;
+    margin: 40vh auto 0 auto;
+    height: 200px;
+}
+
+.result_container .single-pricing,
+.fail_container .single-pricing{
+    padding: 50px 10px;
+}
+
+.alert-box{
+    position: fixed;
+    right: 0;
+    top: 20vh;
+    background: #e86d55;
+    padding: 20px 20px 10px 20px;
+    color: #fff;
+    font-size: 13px;
+    -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.53);
+    box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.53);
+    max-width: 93vw;
+    display: none;
+}
+
+.closed{
+    padding-left: 10px;
+    cursor: pointer;
+}
