@@ -1,19 +1,21 @@
 function newsletter() {
     $(".alert-box").fadeOut("fast");
+     $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 20px;margin-top: 30px;">Adding you to our mail list ...</p>');
+
 
     var newslettername = $("input[name='newslettername']").val(),
         newsletteremail = $("input[name='newsletteremail']").val();
 
     if (newslettername.length < 2) {
         fade_in();
-        alert_mess("Kindly enter your full name");
+         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px;">Enter your full name</p>');
         return
     }
 
 
     if (validateEmail(newsletteremail) == false) {
         fade_in();
-        alert_mess("Kindly enter a valid email");
+         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px;">Kindly enter a valid email</p>');
         return;
     }
 
@@ -23,7 +25,8 @@ function newsletter() {
         function (data) {
             console.log(data);
             if (data) {
-                $(".result_container").fadeIn("slow");
+                 $(".sub_note").fadeOut("fast");
+                $("#newsletter-form").html('<p class="footnote" style="text-align: center;color: green;font-size: 23px;line-height: 41px;">Thanks for subscribing, we will be in touch :)</p>');
             }else{
                 console.log("no dtatata");
             }
@@ -211,6 +214,15 @@ $(document).ready(function () {
     // fadeout alert box
     $(".closed").on("click", function (e) {
         $(".alert-box").fadeOut("slow");
+    })
+
+
+     $("#registerbtn").on("click", function(e){
+        e.preventDefault();
+    })
+
+      $("#newsletterbtn").on("click", function(e){
+        e.preventDefault();
     })
 
 });

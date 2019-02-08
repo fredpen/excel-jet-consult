@@ -401,7 +401,7 @@ input.search-form:hover {
     background: #4caf50;
     color: #fff;
     border-radius: 4px;
-    margin-top: 40px;
+    margin-top: 15px;
     display: inline-block;
     font-size: 14px;
     margin-right: 10px;
@@ -420,6 +420,7 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .item {
+    bottom: 30px;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;

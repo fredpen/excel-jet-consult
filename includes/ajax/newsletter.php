@@ -31,7 +31,11 @@ $email = strip_tags($_POST['newsletteremail']);
 $timestamp = date("Y-m-d-l-h:m");
 
 // build the mail string
-$message = $name . "with email ". $email . " has subsribe to your newsletter !!!";
+$message = "Dear Administartor, <p>A client with name " . $name . " and email " . $email . " has subsribed to your newsletter</p><p>Regards</p>";
+$client_message = "Dear " . $name . ",<p> You have successfully subscribed to our newsletter.</p>
+                    <p>Find out more about our services <a href='http://exceljetconsult.com.ng/index.php#services'> here</a></p>
+                    <p>Regards</p>";
+
 
 $stmt = $con->prepare("INSERT INTO newsletter VALUES('', ?, ?, ?)");
 $stmt->bind_param("sss", $name, $email, $timestamp);
@@ -48,8 +52,9 @@ if ($stmt->affected_rows !== 0) {
         $mail->Host = 'mail.exceljetconsult.com.ng';            // Specify main and backup SMTP servers
         $mail->SMTPAuth = true;                               // Enable SMTP authentication
         $mail->Username = 'abiola.david@exceljetconsult.com.ng';                 // SMTP username
-        $mail->Password = 'lautech@1991';                           // SMTP password
+        $mail->Password = 'abiola@2019';                           // SMTP password
         $mail->SMTPSecure = 'tls';                       // Enable TLS encryption, `ssl` also accepted
+        $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Port = 587;                                    // TCP port to connect to
         $mail->SMTPOptions = array(
             'ssl' => array(
@@ -59,27 +64,35 @@ if ($stmt->affected_rows !== 0) {
             )
         );
 
-        //Recipients
+        //admin
         $mail->setFrom('abiola.david@exceljetconsult.com.ng', 'Excel Jet Consult');
-        $mail->addAddress('fredricksola@yahoo.com', 'fred');     // Add a recipient
-        $mail->addReplyTo($email, 'reply');
-
-        //Content
-        $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = 'New nesletter Subscriber !!!';
+        $mail->addAddress('abiola.david@exceljetconsult.com.ng', 'David Abiola');     // Add a recipient
+        $mail->addReplyTo($email, $name);
+        $mail->Subject = 'New newsletter Subscription';
         $mail->Body    = $message;
         $mail->AltBody = strip_tags($message);
-
         $mail->send();
+
+
+        // clients
+        $mail->ClearAllRecipients();
+        $mail->ClearAddresses();
+        $mail->ClearReplyTos();
+        $mail->addAddress($email, $name);     // Add a recipient
+        $mail->Body    = $client_message;
+        $mail->AltBody = strip_tags($client_message);
+        $mail->send();
+
         echo true;
-        echo 'Message has been sent';
     } catch (Exception $e) {
         echo false;
-        echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+        // echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 
 
 } else{
-    echo "ant sedjdjs";
     echo false;
 }
+
+
+?>

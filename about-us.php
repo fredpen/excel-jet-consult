@@ -21,17 +21,17 @@ include_once 'includes/nav.php';
                 <div class="col-md-5">
                     <div class="about-img">
                         <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/mission.jpeg" alt="Excel Jet Consult - abiola david abiola">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <a class="preview" href="images/mission.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                            <img class="img-responsive" src="images/mission.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <a class="preview" href="images/mission.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
     <section id="about-us">

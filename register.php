@@ -124,11 +124,7 @@ include_once 'includes/nav.php';
                             <input type="text"  placeholder="Jane Dow" name="depositor" id="depositor" required="required" class="form-control">
                         </div>
 
-                        <!-- <div class="form-group">
-                            <label>Amount Paid *</label>
-                            <input type="number"  placeholder="Amount in naira" name="amount" id="amount" required="required" class="form-control">
-                        </div>
- -->
+
 
                         <div class="form-group">
                             <label>Mode of Payment *</label>
@@ -157,7 +153,7 @@ include_once 'includes/nav.php';
 
 
                      <div class="col-sm-12 center form-group">
-                            <button onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
+                            <button id="registerbtn" onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
                     </div>
                 </form>
             </div>

@@ -68,6 +68,7 @@
                                                         </div>
                                                     </p>
                                                 </div>
+
                                             </div>
                                         </div>
 
@@ -84,6 +85,18 @@
                                                         </div>
                                                     </p>
                                                 </div>
+
+                                                 <div class="about-img col-xs-12">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/excel-serv.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/excel-serv.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
                                         </div>
 
@@ -100,6 +113,19 @@
                                                         </div>
                                                     </p>
                                                 </div>
+
+                                                <div class="about-img col-xs-12">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/adv-ecxel-serv.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/adv-ecxel-serv.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
 
@@ -115,6 +141,39 @@
                                                             <a href="pricing.php">Learn more</a>
                                                         </div>
                                                     </p>
+                                                </div>
+
+                                                 <div class="about-img col-xs-4">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/pb1.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/pb1.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="about-img col-xs-4">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/pb2.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/pb2.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="about-img col-xs-4">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/pb3.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/pb3.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
