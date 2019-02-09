@@ -37,7 +37,7 @@ include_once 'includes/nav.php';
 
                          <li>
                             <p>
-                               Note: For registration of five (5) or more people, kindly contact us to assit in placing your order as a coperate request. You can do that
+                               Note: For registration of five (5) or more participants, kindly contact us to assist in placing your order as a corporate request. You can do that
                                 <a href="contact-us.php">here</a>
                             </p>
                         </li>
@@ -153,7 +153,7 @@ include_once 'includes/nav.php';
 
 
                      <div class="col-sm-12 center form-group">
-                            <button id="registerbtn" onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Regsiter</button>
+                            <button id="registerbtn" onclick=register() type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Register</button>
                     </div>
                 </form>
             </div>

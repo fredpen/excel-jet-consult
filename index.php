@@ -62,7 +62,7 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Overview</h2>
-                                                    <p>Excel Jet Training is specially crafted to cater for the needs of the following professionals: Sales, HR, Marketing, Production, Accounting, Finance, Project Management and other professionals that uses Microsoft Excel and Power BI The Microsoft Excel for Professionals, Advanced Master for Professionals and Power BI run for two days each during the working week. In addition, the course is designed to cater for professionals who are available for weekend training. The courses are prerequisite to each other.
+                                                    <p>Excel Jet Training is specially crafted to cater for the needs of the following professionals: Sales, HR, Marketing, Production, Accounting, Finance, Project Management and other professionals that uses Microsoft Excel and Power BI.</br></br> The Microsoft Excel for Professionals, Advanced Master for Professionals and Power BI run for two days each during the working week. In addition, the course is designed to cater for professionals who are available for weekend training. The courses are prerequisite to each other.
                                                          <div>
                                                             <a href="pricing.php">Learn more</a>
                                                         </div>
@@ -75,11 +75,28 @@
                                         <div class="tab-pane fade" id="tab1">
                                             <div class="media">
                                                 <div class="pull-left">
-                                                    <img class="img-responsive" alt="Excel Jet Consult" src="images/excel.png">
+                                                    <img class="img-responsive" alt="Excel Jet Consult" src="images/excel.jpg">
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Excel for Professionals</h2>
-                                                    <p>Getting Started. Select and Navigation. View Options. Fill Handle. Simple Formulas. Formulas in Context. Basic Functions. Cell References. Formatting. Sorting and Filtering. Conditional Formatting. Basic Charts. Sharing Charts. 3D Formulas. Consolidation by Position and Reference. Text Functions. Named Range. Statistical Functions. Advance Charting. Tables. Pivot Table and many more
+                                                    <p>This course features:
+                                                        <ul>
+                                                            <li>Getting Started</li>
+                                                            <li>Select and Navigation</li>
+                                                            <li>View Options</li>
+                                                            <li>Fill Handle</li>
+                                                            <li>Simple Formulas</li>
+                                                            <li>Formulas in Context</li>
+                                                            <li>Basic Functions, Text Functions Statistical Functions</li>
+                                                            <li>Cell References</li>
+                                                            <li>Formatting and Conditional Formatting</li>
+                                                            <li>Sorting and Filtering</li>
+                                                            <li>Basic Charts, Advance Charting Sharing Charts</li>
+                                                            <li>3D Formulas</li>
+                                                            <li> Consolidation by Position and Reference</li>
+                                                            <li>Named Range. </li>
+                                                            <li>Tables, Pivot Table and many more</li>
+                                                        </ul>
                                                         <div>
                                                             <a href="pricing.php">Learn more</a>
                                                         </div>
@@ -107,14 +124,51 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Excel Advanced Masterclass for Professionals</h2>
-                                                    <p>Data Validation. Formulas in Data Validation. Advanced Conditional Formatting. Logical Functions. Lookup Functions. Formula Auditing. What-if Analyses. Solver. Macro. VBA. Advanced Filtering. Financial Functions. Date Functions. Text to Column. Modelling. Array formulas and more
-                                                         <div>
+                                                     <p>This course features:
+                                                        <ul>
+                                                            <li>Data Validation</li>
+                                                            <li>Formulas in Data Validation</li>
+                                                            <li>Advanced Conditional Formatting</li>
+                                                            <li>Logical Functions and lookup Functions</li>
+                                                            <li>Formula Auditing</li>
+                                                            <li>What-if Analyses</li>
+                                                            <li>Solver and Macro</li>
+                                                            <li>VBA</li>
+                                                            <li>Advanced Filtering</li>
+                                                            <li>Financial Functions and Date Functions</li>
+                                                            <li>Text to Column</li>
+                                                            <li>Modelling.</li>
+                                                            <li>Array formulas and more</li>
+                                                        </ul>
+                                                        <div>
                                                             <a href="pricing.php">Learn more</a>
                                                         </div>
                                                     </p>
                                                 </div>
 
-                                                <div class="about-img col-xs-12">
+                                                <div class="about-img col-sm-4">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/adv-excel.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/adv-excel.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                 <div class="about-img col-sm-4">
+                                                    <div class="recent-work-wrap">
+                                                        <img id="service-img" class="img-responsive" src="images/adv-excel2.jpeg" alt="Excel Jet Consult - abiola david abiola">
+                                                        <div class="overlay">
+                                                            <div class="recent-work-inner">
+                                                                <a class="preview" href="images/adv-excel2.jpeg" rel="prettyPhoto"><i class="fa fa-plus"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="about-img col-sm-4">
                                                     <div class="recent-work-wrap">
                                                         <img id="service-img" class="img-responsive" src="images/adv-ecxel-serv.jpeg" alt="Excel Jet Consult - abiola david abiola">
                                                         <div class="overlay">
@@ -136,8 +190,15 @@
                                                 </div>
                                                 <div class="media-body">
                                                     <h2>Certificate Course in Microsoft Power BI Desktop </h2>
-                                                    <p>Power Query and Power Pivot (Data Modelling)Power BI DAX formulas, time in`telligence functions Trends and Insights and many more.
-                                                          <div>
+                                                    <p>This course features:
+                                                        <ul>
+                                                            <li>Power Query and Power Pivot (Data Modelling)</li>
+                                                            <li>Power BI DAX formulas</li>
+                                                            <li>Time in telligence functions</li>
+                                                            <li> Trends </li>
+                                                            <li>Insights and many more</li>
+                                                        </ul>
+                                                        <div>
                                                             <a href="pricing.php">Learn more</a>
                                                         </div>
                                                     </p>
@@ -209,13 +270,24 @@
 
                 <div class="single-slide">
                     <div class="slide-img">
+                        <img src="images/client3.jpg" alt="excel jet consult">
+                    </div>
+                    <div class="content tleft">
+                        <img src="images/review5.png" class="center" alt="excel jet consult">
+                        <p>"A highly educative and worthwhile course. Would recommend the courses for professionals"</p>
+                        <h4>- Olajumoke Olota-Adedeji </h4>
+                    </div>
+                </div>
+
+                <div class="single-slide">
+                    <div class="slide-img">
                         <img src="images/CLIENT1.jpg" alt="excel jet consult">
                     </div>
                     <div class="content tleft">
                         <img src="images/review5.png" alt="excel jet consult">
-                        <p>Having encountered Mr Abiola's excellent and passionate delivery of his Microsoft Excel training, my knowledge of Excel has improved greatly. </p>
-                        <p>This is a training I will gladly recommend to anyone</p>
-                        <h4>- Agboke Abdulrasaq </h4>
+                        <p>"Having encountered Mr Abiola's excellent and passionate delivery of his Microsoft Excel training, my knowledge of Excel has improved greatly. </p>
+                        <p>This is a training I will gladly recommend to anyone"</p>
+                        <h4>- Agboke Abdulrasaq</h4>
                     </div>
                 </div>
 
@@ -225,9 +297,9 @@
                     </div>
                     <div class="content tleft">
                         <img src="images/review5.png" alt="excel jet consult">
-                        <p>I needed help improving my excel skills and came across one of Excel Jet's post on LinkedIn and decided to give them a trial. </p>
+                        <p>"I needed help improving my excel skills and came across one of Excel Jet's post on LinkedIn and decided to give them a trial. </p>
                         <p>It was totally worth the shot because apart from breaking down the formulas and explaining the rationale behind each formula, they also provided text book containing steps and also to serve as refresher. </p>
-                        <p>... Would recommend them anyday</p>
+                        <p>... Would recommend them anyday"</p>
                         <h4>- Adesola Adebo</h4>
                     </div>
                 </div>

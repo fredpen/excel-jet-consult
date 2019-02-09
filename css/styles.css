@@ -205,3 +205,24 @@ h6 > img{
 .navbar-inverse .navbar-toggle {
     border-color: #4CAF50;
 }
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color:#fff;
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+    }
+
+    .alert-box {
+        top: 27vh;
+    }
+}
+
+.phone{
+    border-right: 2px solid #4caf50;
+    padding: 5px;
+    margin-right: 5px;
+}

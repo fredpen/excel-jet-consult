@@ -8,14 +8,14 @@ function newsletter() {
 
     if (newslettername.length < 2) {
         fade_in();
-         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px;">Enter your full name</p>');
+         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px; margin-top: 30px;">Enter your full name</p>');
         return
     }
 
 
     if (validateEmail(newsletteremail) == false) {
         fade_in();
-         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px;">Kindly enter a valid email</p>');
+         $(".sub_note").html('<p class="footnote" style="text-align: center;color: green;font-size: 30px; margin-top: 30px;">Kindly enter a valid email</p>');
         return;
     }
 

@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-xs-12">
                         <div class="top-number">
-                            <p><i class="fa fa-phone-square"></i> 0803 527 7416, 0811 368 4404</p>
+                            <p><i class="fa fa-phone-square"></i><span class="phone">0803 527 7416 </span> 0811 368 4404</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-xs-12">
@@ -39,10 +39,10 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Home</a></li>
-
+                         <li><a href="about-us.php">About Us</a></li>
                         <li><a href="index.php#services">Services</a></li>
                         <li><a href="index.php#testimonials">Testimonials</a></li>
-                         <li><a href="about-us.php">About Us</a></li>
+                        <li><a href="contact-us.php">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
@@ -50,7 +50,6 @@
                                 <li><a href="register.php">Register Course</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact-us.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

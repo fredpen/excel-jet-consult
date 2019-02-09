@@ -7,16 +7,16 @@ include_once 'includes/nav.php';
     <section class="mt110 pricing">
         <div id="mb0" class="large-title text-center">
             <h2>Pricing Table</h2>
-            <p>If you have any enquiry about the courses or thier prices, do not hesitate to <a href="conatct-us.php">contact us</a></p>
+            <p>If you have any enquiry about the courses or their prices, do not hesitate to <a href="conatct-us.php">contact us</a></p>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="single-pricing">
                         <span>Microsoft Excel </br>for Proffesionals</span>
-                        <h6>
-                            <img src="images/excel.png" alt="excel jet consult - abiola daivd">
-                        </h6>
+                        <h1>
+                            <img src="images/excel.jpg" alt="excel jet consult - abiola daivd">
+                        </h1>
                         <div class="clearfix">
                             <ul>
                                 <li><i class="fa fa-paper-plane"></i> # 35,000</li>

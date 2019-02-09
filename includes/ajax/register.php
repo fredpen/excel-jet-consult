@@ -17,8 +17,8 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 // create a new database connection
 try {
-    //$con = new mysqli("localhost", "exceljet_fredrick", "lautech@1991", "exceljet_app");
-    $con = new mysqli("localhost", "root", "", "exceljet_app");
+    $con = new mysqli("localhost", "exceljet_fredrick", "lautech@1991", "exceljet_app");
+    // $con = new mysqli("localhost", "root", "", "exceljet_app");
     $con->set_charset("utf8mb4");
 } catch (Exception $e) {
     error_log($e->getMessage());

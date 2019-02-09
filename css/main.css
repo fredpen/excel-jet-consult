@@ -199,6 +199,7 @@ body>section {
 
 .top-number {
     color:#4caf50;
+    font-weight: 600;
 }
 
 .top-number p {
@@ -291,7 +292,7 @@ input.search-form:hover {
     color: #4caf50;
     line-height: 24px;
     display: inline-block;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -1068,7 +1069,8 @@ a.accordion-toggle i {
 }
 .testimonial-slider.owl-carousel .owl-item img{
     width: auto;
-    display: inline-block;
+    display: block;
+    margin:0 auto;
 }
 
 .testimonial-slider{
@@ -1079,7 +1081,7 @@ a.accordion-toggle i {
     background-color: #fff;
     padding: 45px 35px;
     color: #707070;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 26px;
 }
 
@@ -1432,12 +1434,12 @@ a.accordion-toggle i {
 ********* Pricing Table CSS *
 **************************/
 section.pricing{
-    background-color: #FAFAFA;
+    background-color: #fff;
 }
 .single-pricing{
     display: inline-block;
     background-color: #fff;
-    border: 1px solid #E4EBF0;
+    border: 2px solid #E4EBF0;
     padding: 50px;
     text-align: center;
     margin: 50px 0;
@@ -1476,7 +1478,7 @@ section.pricing{
     list-style: none;
     padding: 0;
     text-align: left;
-    color: #989898;
+    color: #060606;
     margin-bottom: 50px;
     margin-top: 30px;
 }
@@ -1564,7 +1566,7 @@ textarea#message {
 .large-title p{
     font-size: 16px;
     line-height: 26px;
-    color: #989898;
+    color: #060606;
     font-weight: 300;
 }
 
